@@ -5,23 +5,23 @@ declare module 'winston-papertrail' {
   interface PapertrailTransportOptions {
     host: string
     port: number
-    disableTls: boolean
-    level: keyof winston.config.AbstractConfigSetLevels
-    levels: winston.config.AbstractConfigSetLevels
-    hostname: string
-    program: string
-    facility: string
-    logFormat: string
-    colorize: boolean
-    inlineMeta: boolean
-    handleExceptions: boolean
-    flushOnClose: boolean
-    depth: number
-    attemptsBeforeDecay: number
-    maximumAttempts: number
-    connectionDelay: number
-    maxDelayBetweenReconnection: number
-    maxBufferSize: number
+    disableTls?: boolean
+    level?: keyof winston.config.AbstractConfigSetLevels
+    levels?: winston.config.AbstractConfigSetLevels
+    hostname?: string
+    program?: string
+    facility?: string
+    logFormat?: string
+    colorize?: boolean
+    inlineMeta?: boolean
+    handleExceptions?: boolean
+    flushOnClose?: boolean
+    depth?: number
+    attemptsBeforeDecay?: number
+    maximumAttempts?: number
+    connectionDelay?: number
+    maxDelayBetweenReconnection?: number
+    maxBufferSize?: number
   }
 
   interface PapertrailTransportInstance extends Transport {
