@@ -1,6 +1,6 @@
 {
   "name": "@ts-typings/winston-papertrail",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "TS typing for winston papertrail",
   "main": "index.js",
   "scripts": {
@@ -16,8 +16,9 @@
     "url": "https://github.com/themyth92/winston-papertrail-typings/issues"
   },
   "homepage": "https://github.com/themyth92/winston-papertrail-typings#readme",
-  "dependencies": {
+  "devDependencies": {
     "@types/node": "^12.7.1",
     "winston": "^3.2.1"
-  }
+  },
+  "dependencies": {}
 }
