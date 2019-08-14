@@ -1,0 +1,23 @@
+{
+  "name": "@ts-typings/winston-papertrail",
+  "version": "1.0.0",
+  "description": "TS typing for winston papertrail",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themyth92/winston-papertrail-typings.git"
+  },
+  "author": "themyth92",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/themyth92/winston-papertrail-typings/issues"
+  },
+  "homepage": "https://github.com/themyth92/winston-papertrail-typings#readme",
+  "dependencies": {
+    "@types/node": "^12.7.1",
+    "winston": "^3.2.1"
+  }
+}
