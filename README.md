@@ -1,4 +1,4 @@
-## JS State Machine Typing
+## Winston Papertrail Typings
 - [Winston Papertrail](https://github.com/kenperkins/winston-papertrail) Typing
 - Copy from https://github.com/sgronblo/winston-papertrail-declaration with some small modification.
 
